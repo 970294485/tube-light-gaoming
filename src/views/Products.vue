@@ -22,7 +22,7 @@ const products = computed(() => [
     desc: { zh: '高亮度，适用于工厂和仓库。', tc: '高亮度，適用於工廠和倉庫。', en: 'High brightness, suitable for factories and warehouses.' },
     price: 'HK$ 120',
     specs: { zh: '20W, 2400lm, 50000h', tc: '20W, 2400lm, 50000h', en: '20W, 2400lm, 50000h' },
-    img: 'public/images/led-06.jpg',
+    img: '/images/led-06.jpg',
     alt: 'energy-saving LED tube in factory setting'
   },
   {
@@ -32,7 +32,7 @@ const products = computed(() => [
     desc: { zh: '防眩光设计，保护视力。', tc: '防眩光設計，保護視力。', en: 'Anti-glare design, eye protection.' },
     price: 'HK$ 85',
     specs: { zh: '15W, 1600lm, 40000h', tc: '15W, 1600lm, 40000h', en: '15W, 1600lm, 40000h' },
-    img: 'public/images/led-07.png',
+    img: '/images/led-07.png',
     alt: 'LED tube in office setting'
   },
   {
@@ -42,7 +42,7 @@ const products = computed(() => [
     desc: { zh: '高性价比，家庭首选。', tc: '高性價比，家庭首選。', en: 'Cost-effective, best for home.' },
     price: 'HK$ 45',
     specs: { zh: '18W, 1400lm, 20000h', tc: '18W, 1400lm, 20000h', en: '18W, 1400lm, 20000h' },
-    img: 'public/images/led-08.png',
+    img: '/images/led-08.png',
     alt: 'energy-saving light tube in home setting'
   },
   {
@@ -52,7 +52,7 @@ const products = computed(() => [
     desc: { zh: '多种色彩，营造独特氛围。', tc: '多種色彩，營造獨特氛圍。', en: 'Multiple colors for unique atmosphere.' },
     price: 'HK$ 150',
     specs: { zh: '10W, RGB, 30000h', tc: '10W, RGB, 30000h', en: '10W, RGB, 30000h' },
-    img: 'public/images/led-09.png',
+    img: '/images/led-09.png',
     alt: 'decorative light tube in retail environment'
   },
   {
@@ -62,7 +62,7 @@ const products = computed(() => [
     desc: { zh: '超薄设计，节省空间。', tc: '超薄設計，節省空間。', en: 'Ultra-slim design, space saving.' },
     price: 'HK$ 95',
     specs: { zh: '12W, 1200lm, 45000h', tc: '12W, 1200lm, 45000h', en: '12W, 1200lm, 45000h' },
-    img: 'public/images/led-10.jpg',
+    img: '/images/led-10.jpg',
     alt: 'slim LED tube in modern kitchen'
   }
 ]);

@@ -53,18 +53,18 @@ const content = computed(() => ({
     {
       name: { zh: 'LED光管系列', tc: 'LED光管系列', en: 'LED Tube Series' },
       desc: { zh: '采用最新芯片技术，超高光效。', tc: '採用最新芯片技術，超高光效。', en: 'Using the latest chip technology for ultra-high efficiency.' },
-      img: 'public/images/led-01.webp'
+      img: '/images/led-01.webp'
       
     },
     {
       name: { zh: '节能光管系列', tc: '節能光管系列', en: 'Energy-Saving Series' },
       desc: { zh: '经典稳定，极致节能。', tc: '經典穩定，極致節能。', en: 'Classic stability with extreme energy savings.' },
-      img: 'public/images/led-02.png'
+      img: '/images/led-02.png'
     },
     {
       name: { zh: '装饰光管系列', tc: '裝飾光管系列', en: 'Decorative Series' },
       desc: { zh: '色彩丰富，满足个性化装饰需求。', tc: '色彩豐富，滿足個性化裝飾需求。', en: 'Rich colors to meet personalized decorative needs.' },
-      img: 'public/images/led-03.webp'
+      img: '/images/led-03.webp'
     }
   ],
   // 案例分享
@@ -76,7 +76,7 @@ const content = computed(() => ({
   cases: [
     {
       title: { zh: '中环国际金融中心办公区', tc: '中環國際金融中心辦公區', en: 'IFC Office Area' },
-      img: 'public/images/led-04.webp',
+      img: '/images/led-04.webp',
       tag: { zh: '商业', tc: '商業', en: 'Commercial' }
     },
     {
@@ -86,7 +86,7 @@ const content = computed(() => ({
     },
     {
       title: { zh: '新界自动化物流仓库', tc: '新界自動化物流倉庫', en: 'NT Automated Warehouse' },
-      img: 'public/images/led-05.png',
+      img: '/images/led-05.png',
       tag: { zh: '工业', tc: '工業', en: 'Industrial' }
     }
   ],
